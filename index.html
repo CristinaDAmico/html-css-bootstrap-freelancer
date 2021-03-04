@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milestone 1</title>
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <!-- BOOTSTRAP 3 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- MAIN STYLES -->
@@ -15,29 +17,63 @@
 
     <!-- MAIN HEADER -->
     <header class="header_color">
-        <nav class="container">
-            <div class="row">
-                <div class="col-xs-6">Start bootstrap</div>
-                <div class="col-xs-6">About</div>
-            </div>
-        </nav>
+        <nav class="navbar navbar-default cd-nav">
+            <div class="container">
+
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> 
+                    <a class="navbar-brand" href="#">Start bootstrap</a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+              </div><!-- /.navbar-collapse -->
+
+            </div><!-- /.container -->
+        </nav> 
     </header>
+
+   
 
     <!-- MAIN CONTENT -->
     <main>
 
         <!-- hero content -->
         <section class="hero">
-            <div class="container">
-                <div class="col-xs-12"></div>
+            <div class="container text-center">
+                <div class="col-xs-12">
+                    <img src="./img/avatar.svg" alt="avatar">
+                    <h1> Start bootstrap </h1>
+                    <div class="star">
+                        <hr class="hr_left">
+                        <i class="fas fa-star"></i>
+                        <hr class="hr_right">
+                    </div> 
+                    <h4>Graphic artist - Web designer - Illustrator </h4>
+                </div>
             </div>
         </section>
 
         <!-- portfolio content -->
-        <section class="container">
+        <section class="container text-center">
             <div class="col-xs-12 portfolio">
                 <h2>Portfolio</h2>
-                <hr>
+                <div class="star">
+                    <hr class="hr_left">
+                    <i class="fas fa-star"></i>
+                    <hr class="hr_right">
+                </div> 
             </div>
         </section>
 
@@ -45,22 +81,22 @@
         <section class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="card"></div>
+                    <div class="card"><img src="./img/cabin.png" alt=""></div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="card"></div>
+                    <div class="card"><img src="./img/cake.png" alt=""></div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="card"></div>
+                    <div class="card"><img src="./img/circus.png" alt=""></div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="card"></div>
+                    <div class="card"><img src="./img/game.png" alt=""></div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="card"></div>
+                    <div class="card"><img src="./img/safe.png" alt=""></div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="card"></div>
+                    <div class="card"><img src="./img/submarine.png" alt=""></div>
                 </div>
             </div>
         </section>
@@ -68,15 +104,15 @@
         <!-- section about -->
         <section class="about">
             <div class="container">
-                <div class="col-xs-12">
+                <div class="col-xs-12 text-center">
                     <h2>About</h2>
-                    <hr>
+                    <i class="fas fa-star"></i>
                 </div>
                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae delectus veritatis dolorum expedita provident iure modi vitae ratione dolore dolorem sapiente architecto libero ipsam, accusamus itaque quibusdam sequi. Similique.</p>
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                 </div>
                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quae delectus veritatis dolorum expedita provident iure modi vitae ratione dolore dolorem sapiente architecto libero ipsam, accusamus itaque quibusdam sequi. Similique.</p>
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects,this template is the perfect starting point!</p>
                 </div>
                 <div class="col-xs-12">
                     <div class="dload">Download</div>
