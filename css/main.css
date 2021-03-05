@@ -10,33 +10,29 @@ h4 {
     text-transform: uppercase;
 }
 
+/* UTILITIES */
+
 /* section color blue */
 .color_blue {
     color: #2c3e50;
 }
 
+/* star divisore */
 .star {
     font-size: 25px;
-} 
+}
 
-
-.star hr {
-    width: 60px;
+.star span {
+    display: inline-block;
+    width: 15%;
     border: 2px solid;
     border-radius: 5px;
-    position: relative;
-    top: 10px;
+    vertical-align: middle;
 }
-
-.hr_left,
-.hr_right {
-    display: inline-block;
-}
-
-
 
 /* STYLE HEADER */
 
+/* style navbar */
 .cd-nav {
     font-weight: bold;
     text-transform: uppercase;
@@ -57,7 +53,7 @@ a.navbar-brand {
 }
 
 
-/* STYLE HERO */
+/* style hero */
 .hero {
     padding: 30px 0;
     background-color: #1abc9c;
@@ -70,7 +66,7 @@ a.navbar-brand {
 
 /* section portfolio img */
 .card img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 10px;
     margin: 20px auto;
 }
@@ -100,6 +96,7 @@ a.navbar-brand {
 
 .cd-form {
     padding-left: 0;
+    margin-top: 15px;
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -118,19 +115,31 @@ label.message {
 
 /* FOOTER */
 
-footer {
-    text-align: center;
-    color: white;
-}
-
 /* footer top */
 .footer_top {
-    height: 450px;
+    padding: 20px;
     background-color: #3a546d;
+}
+
+.footer_top i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.cd-footer-top {
+    margin: 20px 0;
+}
+
+.cd-footer-top span {
+    color: #1abc9c;
 }
 
 /* footer bottom */
 .footer_bottom {
-    height: 100px;
+    padding: 40px;
     background-color: #2c3e50;
 }
